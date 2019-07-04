@@ -8,7 +8,7 @@
   <h3 align="center">Demo Docs</h3>
 
   <p align="center">
-    Documentation for demos and DocOps showcases
+    Example documentation for demos and DocOps showcases
     <br />
     <a href="https://github.com/ocular-d/demo-docs"><strong>Explore the docs »</strong></a>
     <br />
@@ -20,10 +20,29 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+- [About the Project](#about)
+- [Contributing](#contributing)
+- [License](#license)
+- [Credits](#credits)
+
+## About
+
+This repository contains example documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown "Link to wikipedia").
+
+It is used to showcase *Docs As Code* and *DocOps*.
+
 ## Contributing
 
-Nothing here yet.
+We are a community effort, and everybody is most welcome to participate!
+
+Be it filing bugs, formulating enhancements, creating pull requests, or any other means of contribution, we encourage contributions from everyone.
 
 ## License
 
 Distributed under the [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html "Link to license") license.
+
+## Credits
+
+- [Pronovix](https://pronovix.com/ "Link to Pronovix website")
