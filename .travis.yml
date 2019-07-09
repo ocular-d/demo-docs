@@ -1,0 +1,18 @@
+---
+language: generic
+dist: xenial
+
+services:
+  - docker
+
+stages:
+  - test
+
+jobs:
+  include:
+    - stage: test
+      script:
+      - docker run -v `pwd`/docs:/srv/test testthedocs/cci-linkcheck docs
+
+
+
