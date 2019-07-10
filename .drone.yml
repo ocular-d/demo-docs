@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+- name: linkcheck
+  image: testthedocs/cci-linkcheck
+  commands:
+    - su-exec ttd /usr/local/bin/linkcheck -c '200,301,302' -t 5 docs
