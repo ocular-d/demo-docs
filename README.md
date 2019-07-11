@@ -1,3 +1,9 @@
+[![Build Status](https://travis-ci.org/ocular-d/demo-docs.svg?branch=master)](https://travis-ci.org/ocular-d/demo-docs)
+
+[![CircleCI](https://circleci.com/gh/ocular-d/demo-docs.svg?style=svg)](https://circleci.com/gh/ocular-d/demo-docs)
+
+[![Build Status](https://cloud.drone.io/api/badges/ocular-d/demo-docs/status.svg)](https://cloud.drone.io/ocular-d/demo-docs)
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
