@@ -1,6 +1,10 @@
-image: testthedocs/linkcheck
+stages:
+  - linting
 
-
-linkcheck_docs:
+linkcheck:
+  stage: linting
+  image:
+    name:  testthedocs/linkcheck
+    entrypoint: [""]
   script:
-    - echo "test"
+    - /usr/local/bin/linkcheck -c '200,301,302' -t 5 docs
