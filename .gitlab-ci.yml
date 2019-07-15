@@ -1,0 +1,5 @@
+linkcheck_docs:
+  stage: linkcheck
+  image: testthedocs/linkcheck
+  script:
+    - su-exec ttd /usr/local/bin/linkcheck -c '200,301,302' -t 5 docs
