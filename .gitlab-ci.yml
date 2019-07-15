@@ -1,4 +1,4 @@
-images: testthedocs/linkcheck
+image: testthedocs/linkcheck
 
 stages:
   - test
