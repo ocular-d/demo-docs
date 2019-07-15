@@ -1,9 +1,9 @@
+images: testthedocs/linkcheck
+
 stages:
   - test
 
 linkcheck_docs:
-  stage: test
-  image: testthedocs/linkcheck
   script:
     - ls -la
     - pwd
