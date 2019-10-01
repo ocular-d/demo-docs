@@ -11,6 +11,7 @@ jobs:
           urls: |
             https://developer.twitter.com/en.html
             https://developer.twitter.com/en/docs/basics/rate-limiting
+            https://docs.plone.org
           #budgetPath: ./budget.json
       - name: Save results
         uses: actions/upload-artifact@master
