@@ -3,6 +3,7 @@
 [![Build Status](https://cloud.drone.io/api/badges/ocular-d/demo-docs/status.svg)](https://cloud.drone.io/ocular-d/demo-docs)
 
 <!-- PROJECT LOGO -->
+
 <br />
 <p align="center">
   <a href="https://github.com/ocular-d/demo-docs">
@@ -24,6 +25,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
 - [About the Project](#about)
