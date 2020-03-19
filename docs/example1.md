@@ -8,8 +8,6 @@ But is this nice?
 
 This is a link to [GitHub](https://github.com "Link to GitHub").
 
-A bad [link](https://githhub.com")
-
 ## Code
 
 ```shell
