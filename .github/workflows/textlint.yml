@@ -9,3 +9,5 @@ jobs:
       - uses: actions/checkout@v1
       - name: Run Textlint
         uses: docker://testthedocs/textlint:0.0.1
+        with:
+          args: "docs/**"
