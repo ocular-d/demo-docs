@@ -1,0 +1,11 @@
+name: Check File Length
+
+on: push
+
+jobs:
+  check-file-length:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run Textlint
+        uses: docker://testthedocs/textlint:0.0.1
