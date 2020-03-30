@@ -2,6 +2,14 @@ name: Docs Linting
 on: [push]
 
 jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Linkcheck
+      uses: gaurav-nelson/github-action-markdown-link-check@0.6.0
+
   prose:
     runs-on: ubuntu-latest
     steps:
